@@ -5,3 +5,7 @@ config = {
     'password': 'my password',
     'nickname': 'TeamSpeak Bot'
 }
+
+config_nick_name_message = {
+    'group_ids': [1, 2, 3]
+}

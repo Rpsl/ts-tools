@@ -1,4 +1,13 @@
-ts-tools
+TeamSpeak Tools
 ========
 
-Some TeamSpeak3 scripts
+This is my admin scripts/bots for TS3 server
+
+Installiation
+========
+
+```bash
+cp keys-example.py keys.py
+vim keys.py
+crontab -e
+```

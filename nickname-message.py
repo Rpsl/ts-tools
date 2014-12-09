@@ -35,8 +35,6 @@ class ChangeNickName:
 
     def run(self):
 
-        # choose virtual server
-
         text_msg = u"""
         Привет друг, я робот. Я заметил что у тебя очень странное имя в TS3 и хочу попросить тебя его поменять.
 
