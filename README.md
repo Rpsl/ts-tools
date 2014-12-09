@@ -3,7 +3,7 @@ TeamSpeak Tools
 
 This is my admin scripts/bots for TS3 server
 
-Installiation
+Install
 ========
 
 ```bash
