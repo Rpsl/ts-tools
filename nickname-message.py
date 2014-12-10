@@ -49,7 +49,7 @@ class ChangeNickName(object):
         responce = self.server.send_command('clientlist')
 
         for user in responce.data:
-            if user['client_type'] == '1':
+            if int(user['client_type']) == 1:
                 continue
 
             responce = self.server.send_command('servergroupsbyclientid', keys={'cldbid': user['client_database_id']})
