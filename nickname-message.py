@@ -26,7 +26,7 @@ class ChangeNickName:
 
     @staticmethod
     def __check_nick_name(user_check):
-        matches = re.search('^([A-Za-z0-9_-]+) (.*?)$', user_check['client_nickname'])
+        matches = re.search(r'^([a-z0-9_][a-z0-9-_]{3,20})(.*)$', user_check['client_nickname'])
 
         if not matches:
             return True
