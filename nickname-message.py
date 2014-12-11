@@ -26,7 +26,7 @@ class ChangeNickName(object):
 
     @staticmethod
     def check(nickname):
-        matches = re.search(r'^([A-Za-z0-9_-]+) (.*?)$', nickname, re.IGNORECASE | re.UNICODE)
+        matches = re.search(r'^([a-z0-9_][a-z0-9-_]{3,20})(.*)$', nickname, re.IGNORECASE | re.UNICODE)
 
         return True if not matches else False
 
